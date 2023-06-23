@@ -12,7 +12,9 @@ class MainActivity : AppCompatActivity() {
 
         //variablesYConstantes()
 
-        tiposDeDatos()
+        //tiposDeDatos()
+
+        sentenciaIf()
     }
 
     /*
@@ -93,5 +95,26 @@ Uso de variables y constantes
         println(myBool == myBool2)//falso
         println(myBool && myBool2)//falso
         println(myBool && myBool)//verdadero
+    }
+
+    private fun sentenciaIf(){
+        val myNumber = 11
+
+        //Operadores comunes
+        //> Mayor que
+        //< Menor que
+        //>= Mayor o igual que
+        //<= Menor o igual que
+        //== Igual a
+        //!= No es igual a
+
+        if (myNumber <= 10){
+            //Sentencia if
+            println("$myNumber es menor o igual que 10")
+        }
+        else{
+            //Sentencia else
+            println("$myNumber es mayor que 10")
+        }
     }
 }
